@@ -28,4 +28,35 @@ main(List<String> args) {
   weakVar = "Test!!";
 
   print("weakVar: $weakVar \n");
+
+  // String -> Int
+  var one = int.parse("1");
+  assert(one == 1);
+
+  // String -> Dobule
+  var two = double.parse("1.11");
+  assert(two == 1.11);
+
+  // Int -> String
+  var string1 = 1.toString();
+  assert(string1 == "1");
+
+  // Double -> String
+  var string111 = 3.14159.toStringAsFixed(2);
+  assert(string111 == 3.14);
+
+  const text = "Hi!!";
+  const num = 1000;
+  const isOpen = false;
+
+  print(text);
+  print(num);
+  print(isOpen);
+
+  print(text.runtimeType);
+  print(num.runtimeType);
+  print(isOpen.runtimeType);
+
+  int not;
+  print(not); // null
 }

@@ -8,4 +8,10 @@ main(List<String> args) {
   stdout.writeln("What is you name: ?");
   String name = stdin.readLineSync();
   print("My name is $name");
+
+  var textarea = """
+HAHAHA
+HOHOHO
+  """;
+  print(textarea);
 }
