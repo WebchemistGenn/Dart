@@ -3,6 +3,7 @@ class Person {
   int age;
 
   Person(this.name, [this.age = 20]);
+  // Person(this.name, this.age);
 
   // named constructor
   Person.guest() {

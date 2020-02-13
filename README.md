@@ -7,6 +7,8 @@
 
 3. 설치 [링크](https://dart.dev/get-dart)
 
+> mac에 [Homebrew](https://brew.sh/index_ko)가 설치 되어 있어야 합니다.
+
 ```bash
 brew tap dart-lang/dart
 brew install dart
