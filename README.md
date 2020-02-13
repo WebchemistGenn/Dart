@@ -15,7 +15,10 @@ brew install dart
     1. System
     2. DataTypes
     3. Operator
-    4. Functions
+    4. Loop
+    5. Collection
+    6. Functions
+    7. Class
 
 <!-- - Variables
 - Control flow statements
